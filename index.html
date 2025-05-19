@@ -6,8 +6,9 @@
     <title>Michael Trujillo</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/85170decb8.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
 </head>
-<body>
+<body class="light-theme">
     <section id="about-me">
         <nav>
             <div class="personal__logo">Michael Trujillo</div>
@@ -32,6 +33,11 @@
                         nav__link--anchor-primary
                     ">Contact</a>
                 </li>
+                <li>
+                    <button onclick="toggleDarkMode()">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </button>
+                </li>
             </ul>
         </nav>
         <div class="flex flex-1">
@@ -44,7 +50,7 @@
                         Hello! I'm <span class="text--green">Michael Trujillo</span>&nbsp;<span class="wave">👋</span>
                     </h1>
                     <p class="about-me__info--para">
-                        I'm a <strong class="text--green">junior frontned developer</strong>. I make  web applications for everyone! I also develope video games and write music if you are interested in that kind of thing.
+                        I'm a <strong class="text--green">junior frontend developer</strong>. I make  web applications for everyone! I also develop video games and write music if you are interested in that kind of thing.
                     </p>
                     <div class="about-me__links">
                         <a href="https://www.instagram.com/minds_mirrors/" class="about-me__link">
